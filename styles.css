@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template: 200px 1fr / 250px 1fr;
+    grid-template: 150px 1fr / 250px 1fr;
 }
 
 nav {
@@ -10,4 +10,10 @@ nav {
 main {
     display: grid;
     grid-template-columns: 1fr 250px;
+}
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
 }
