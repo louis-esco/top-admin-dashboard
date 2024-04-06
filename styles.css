@@ -92,3 +92,29 @@ main {
     margin-top: auto;
     padding-top: 20px;
 }
+
+.announcements-list {
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement {
+    padding: 20px 0;
+}
+
+.announcement-title {
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+div.announcement:not(:first-child) {
+    border-top: 1px solid #d0d2d5;
+}
+
+.announcement-content {
+    font-size: 0.75rem;
+    color: #4b5563;
+}
