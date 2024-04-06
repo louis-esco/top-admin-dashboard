@@ -10,10 +10,17 @@ nav {
 main {
     display: grid;
     grid-template-columns: 1fr 250px;
+    gap: 15px;
+    padding: 15px;
 }
 
 .projects-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 10px;
+    grid-auto-rows: 200px;
+    gap: 15px;
+}
+
+svg {
+    color: white;
 }
