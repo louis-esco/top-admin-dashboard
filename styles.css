@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
 .container {
     display: grid;
     grid-template: 150px 1fr / 250px 1fr;
@@ -5,6 +15,31 @@
 
 nav {
     grid-row: 1/3;
+    background-color: #0284c7;
+    padding: 20px 15px;
+}
+
+.logo,
+.nav-links1,
+.nav-links2 {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-auto-rows: 30px;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.logo svg,
+.nav-links1 svg,
+.nav-links2 svg {
+    justify-self: center;
+}
+
+.logo {
+    font-size: 1.5rem;
 }
 
 main {
@@ -19,8 +54,4 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 200px;
     gap: 15px;
-}
-
-svg {
-    color: white;
 }
