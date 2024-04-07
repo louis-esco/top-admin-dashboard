@@ -63,7 +63,7 @@ main {
 .projects-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    /* grid-auto-rows: 200px; */
+    grid-auto-rows: minmax(200px, 1fr);
     gap: 20px;
 }
 
