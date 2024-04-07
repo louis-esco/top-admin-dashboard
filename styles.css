@@ -3,6 +3,7 @@
     src: url(./fonts/Roboto-Regular.ttf);
 }
 
+/* GLOBAL SELECTORS */
 body {
     margin: 0;
     font-family: Roboto;
@@ -13,12 +14,14 @@ h2 {
     font-weight: 600;
 }
 
+/* GLOBAL LAYOUT */
 .container {
     display: grid;
     grid-template: 150px 1fr / 250px 1fr;
     min-height: 100vh;
 }
 
+/* NAV LAYOUT */
 nav {
     grid-row: 1/3;
     background-color: #0284c7;
@@ -48,6 +51,7 @@ nav {
     font-size: 1.5rem;
 }
 
+/* MAIN LAYOUT */
 main {
     display: grid;
     grid-template-columns: 1fr 250px;
